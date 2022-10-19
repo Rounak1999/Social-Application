@@ -49,10 +49,10 @@ export default {
             if (message.value === "") return;
             const data = {
                 message: message.value,
-                name: "",
-                email: "",
+                name: "@username",
+                email: "user@gmail.com",
                 image_url: "",
-                uid: "",
+                uid: "123",
                 timestamp: new Date,
                 postImage: imageToPost.value
             }; 
